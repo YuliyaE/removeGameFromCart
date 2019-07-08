@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SteamProject" parallel="classes" thread-count="2">
+    <test name="Steam tests">
+        <classes>
+            <class name="com.epam.tat.steam.test.SearchTest"/>
+            <class name="com.epam.tat.steam.test.SearchTest"/>
+        </classes>
+    </test>
+</suite>
